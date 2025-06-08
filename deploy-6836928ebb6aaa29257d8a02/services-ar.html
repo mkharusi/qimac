@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>قمة للطاقة والاستشارات التجارية | خدماتنا</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <link rel="icon" type="image/png" href="favicon.png">
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+  <style>
+    body {
+      font-family: 'Cairo', sans-serif;
+    }
+  </style>
+</head>
+<body class="min-h-screen bg-neutral-50">
+
+  <header class="bg-white shadow-md">
+    <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex justify-between items-center py-4">
+        <div class="flex items-center">
+          <a href="index-ar.html" class="font-bold text-2xl text-primary">
+            <img src="favicon.png" alt="شعار قمة" class="h-8 w-8 inline-block ml-2">
+            <span class="text-neutral-800">قمة</span>
+          </a>
+        </div>
+        <nav class="hidden md:flex items-center" role="navigation" aria-label="القائمة الرئيسية">
+          <a href="index-ar.html" class="text-neutral-800 hover:text-primary transition duration-300 px-4">الرئيسية</a>
+          <a href="services-ar.html" class="text-neutral-800 hover:text-primary transition duration-300 px-4" aria-current="page">الخدمات</a>
+          <a href="about-ar.html" class="text-neutral-800 hover:text-primary transition duration-300 px-4">من نحن</a>
+          <a href="projects-ar.html" class="text-neutral-800 hover:text-primary transition duration-300 px-4">المشاريع</a>
+          <a href="testimonials-ar.html" class="text-neutral-800 hover:text-primary transition duration-300 px-4">الشهادات</a>
+          <a href="contact-ar.html" class="text-white bg-primary hover:bg-primary-dark px-4 py-2 rounded-md transition duration-300 btn btn-primary no-scroll mx-4" role="button">اتصل بنا</a>
+          <a href="services.html" class="text-neutral-800 hover:text-primary transition duration-300 px-4">English</a>
+        </nav>
+        <div class="md:hidden">
+          <button class="text-neutral-800 hover:text-primary menu-toggle-button">
+            <i class="fas fa-bars text-xl"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <div id="mobileMenu" class="mobile-menu p-6">
+    <div class="flex justify-between items-center mb-8">
+      <a href="index-ar.html" class="font-bold text-2xl text-primary">
+        <img src="favicon.png" alt="شعار قمة" class="h-8 w-8 inline-block ml-2">
+        <span class="text-neutral-800">قمة</span>
+      </a>
+      <button class="close-menu-button text-neutral-800 hover:text-primary">
+        <i class="fas fa-times text-xl"></i>
+      </button>
+    </div>
+    <nav class="flex flex-col space-y-4">
+      <a href="index-ar.html" class="text-neutral-800 hover:text-primary transition duration-300 py-2 border-b border-neutral-200">الرئيسية</a>
+      <a href="services-ar.html" class="text-neutral-800 hover:text-primary transition duration-300 py-2 border-b border-neutral-200">الخدمات</a>
+      <a href="about-ar.html" class="text-neutral-800 hover:text-primary transition duration-300 py-2 border-b border-neutral-200">من نحن</a>
+      <a href="projects-ar.html" class="text-neutral-800 hover:text-primary transition duration-300 py-2 border-b border-neutral-200">المشاريع</a>
+      <a href="testimonials-ar.html" class="text-neutral-800 hover:text-primary transition duration-300 py-2 border-b border-neutral-200">الشهادات</a>
+      <a href="contact-ar.html" class="text-white bg-primary hover:bg-primary-dark px-4 py-3 rounded-md transition duration-300 text-center mt-4 btn btn-primary no-scroll">اتصل بنا</a>
+      <a href="services.html" class="text-neutral-800 hover:text-primary transition duration-300 py-2 border-b border-neutral-200">English</a>
+    </nav>
+  </div>
+
+  <main>
+    <section id="services" class="py-16 bg-neutral-200">
+        <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center mb-14">
+            <h2 class="section-title">خدماتنا المتخصصة</h2>
+            <p class="section-subtitle">
+            استشارات شاملة في مجال الطاقة والأعمال في عمان، تربط المنظمات بالفرص في القطاعات القائمة والناشئة.
+            </p>
+        </div>
+        
+        <div id="energy-sector" class="mb-12 pt-8 -mt-8">
+            <h3 class="font-heading font-semibold text-2xl md:text-3xl mb-8 text-center">قطاع الطاقة</h3>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <div id="oil-Consulting" class="bg-white rounded-lg overflow-hidden shadow-md transition-all hover:shadow-lg service-card">
+                <img src="https://images.pexels.com/photos/3105242/pexels-photo-3105242.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="استشارات النفط" class="w-full h-48 object-cover">
+                <div class="p-6">
+                <h4 class="font-heading text-xl font-semibold mb-3 text-red-600">استشارات النفط</h4>
+                <p class="text-neutral-600 text-sm">توجيه متخصص لعمليات المنبع والوسط والمصب، بما في ذلك تحليل السوق وتقييم المخاطر وإدارة المشاريع.</p>
+                </div>
+            </div>
+            
+            <div id="geological-services" class="bg-white rounded-lg overflow-hidden shadow-md transition-all hover:shadow-lg service-card">
+                <img src="https://images.pexels.com/photos/2101135/pexels-photo-2101135.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="الخدمات الجيولوجية" class="w-full h-48 object-cover">
+                <div class="p-6">
+                <h4 class="font-heading text-xl font-semibold mb-3 text-yellow-600">الخدمات الجيولوجية</h4>
+                <p class="text-neutral-600 text-sm">مسوحات جيولوجية شاملة وتقييم الموارد ودعم الاستكشاف لتحقيق إمكانات عمان في المعادن والهيدروكربونات.</p>
+                </div>
+            </div>
+            
+            <div id="renewable-energy" class="bg-white rounded-lg overflow-hidden shadow-md transition-all hover:shadow-lg service-card">
+                <img src="https://images.unsplash.com/photo-1521618755572-156ae0cdd74d?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80" alt="الطاقة المتجددة" class="w-full h-48 object-cover">
+                <div class="p-6">
+                <h4 class="font-heading text-xl font-semibold mb-3 text-green-600">الطاقة المتجددة</h4>
+                <p class="text-neutral-600 text-sm">استشارات استراتيجية لمشاريع الطاقة الشمسية والرياح وغيرها من مشاريع الطاقة المتجددة، من دراسات الجدوى إلى التنفيذ والتوجيه السياسي.</p>
+                </div>
+            </div>
+            </div>
+        </div>
+
+        <div id="business-setup" class="mb-16 pt-8 -mt-8">
+            <h3 class="font-heading font-semibold text-2xl md:text-3xl mb-10 text-center">باقات تأسيس الأعمال</h3>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+
+                <div class="bg-white rounded-lg p-6 shadow-lg border-t-4 border-blue-500 flex flex-col service-card hover:scale-105 transition-transform duration-300">
+                    <div class="text-center mb-4">
+                        <span class="inline-block px-3 py-1 bg-blue-50 text-blue-600 rounded-full text-sm font-medium">الأكثر طلباً</span>
+                    </div>
+                    <h4 class="font-heading text-xl font-semibold mb-4 text-blue-600">باقة البداية</h4>
+                    <div class="text-3xl font-bold text-neutral-800 mb-4">750 ريال<span class="text-lg font-normal text-neutral-600">/دفعة واحدة</span></div>
+                    <p class="text-neutral-600 mb-4 font-medium">مثالية للشركات الناشئة والمشاريع الصغيرة</p>
+                    <ul class="space-y-3 text-neutral-700 mb-6 flex-grow">
+                        <li class="flex items-start"><i class="fas fa-check text-blue-600 mt-1 ml-2 flex-shrink-0"></i><span>معالجة أوراق تسجيل الشركة</span></li>
+                        <li class="flex items-start"><i class="fas fa-check text-blue-600 mt-1 ml-2 flex-shrink-0"></i><span>طلب تأشيرة المالك والمتابعة</span></li>
+                        <li class="flex items-start"><i class="fas fa-check text-blue-600 mt-1 ml-2 flex-shrink-0"></i><span>مراجعة قانونية أساسية للوثائق التأسيسية</span></li>
+                        <li class="flex items-start"><i class="fas fa-check text-blue-600 mt-1 ml-2 flex-shrink-0"></i><span>حجز اسم الشركة</span></li>
+                        <li class="flex items-start"><i class="fas fa-check text-blue-600 mt-1 ml-2 flex-shrink-0"></i><span>استشارة أعمال أولية</span></li>
+                    </ul>
+                    <div class="mt-auto">
+                        <p class="text-neutral-800 font-semibold bg-blue-50 p-3 rounded mb-4">لماذا تختارها: <span class="font-normal">تبدأ نشاطك التجاري بشكل قانوني بسرعة مع الحد الأدنى من المتطلبات الأساسية.</span></p>
+                        <a href="contact-ar.html" class="block w-full text-center bg-blue-600 text-white py-2 rounded-md hover:bg-blue-700 transition duration-300">ابدأ الآن</a>
+                    </div>
+                </div>
+
+                <div class="bg-white rounded-lg p-6 shadow-lg border-t-4 border-indigo-500 flex flex-col service-card hover:scale-105 transition-transform duration-300">
+                    <h4 class="font-heading text-xl font-semibold mb-4 text-indigo-600">باقة الامتثال</h4>
+                    <div class="text-3xl font-bold text-neutral-800 mb-4">1,500 ريال<span class="text-lg font-normal text-neutral-600">/دفعة واحدة</span></div>
+                    <p class="text-neutral-600 mb-4 font-medium">كل ما في باقة البداية بالإضافة إلى:</p>
+                    <ul class="space-y-3 text-neutral-700 mb-6 flex-grow">
+                        <li class="flex items-start"><i class="fas fa-check text-indigo-600 mt-1 ml-2 flex-shrink-0"></i><span>مراقبة قانونية ربع سنوية</span></li>
+                        <li class="flex items-start"><i class="fas fa-check text-indigo-600 mt-1 ml-2 flex-shrink-0"></i><span>مراجعة توافق التمويل الإسلامي</span></li>
+                        <li class="flex items-start"><i class="fas fa-check text-indigo-600 mt-1 ml-2 flex-shrink-0"></i><span>مدير حساب مخصص</span></li>
+                        <li class="flex items-start"><i class="fas fa-check text-indigo-600 mt-1 ml-2 flex-shrink-0"></i><span>توثيق الامتثال</span></li>
+                        <li class="flex items-start"><i class="fas fa-check text-indigo-600 mt-1 ml-2 flex-shrink-0"></i><span>تقارير امتثال ربع سنوية</span></li>
+                    </ul>
+                    <div class="mt-auto">
+                        <p class="text-neutral-800 font-semibold bg-indigo-50 p-3 rounded mb-4">لماذا تختارها: <span class="font-normal">تحافظ على امتثالك لقواعد عمان ومتطلبات الشريعة.</span></p>
+                        <a href="contact-ar.html" class="block w-full text-center bg-indigo-600 text-white py-2 rounded-md hover:bg-indigo-700 transition duration-300">ابدأ الآن</a>
+                    </div>
+                </div>
+
+                <div class="bg-white rounded-lg p-6 shadow-lg border-t-4 border-emerald-500 flex flex-col service-card hover:scale-105 transition-transform duration-300">
+                    <div class="text-center mb-4">
+                        <span class="inline-block px-3 py-1 bg-emerald-50 text-emerald-600 rounded-full text-sm font-medium">أفضل قيمة</span>
+                    </div>
+                    <h4 class="font-heading text-xl font-semibold mb-4 text-emerald-600">باقة النمو</h4>
+                    <div class="text-3xl font-bold text-neutral-800 mb-4">2,300 ريال<span class="text-lg font-normal text-neutral-600">/دفعة واحدة</span></div>
+                    <p class="text-neutral-600 mb-4 font-medium">كل ما في باقة الامتثال بالإضافة إلى:</p>
+                    <ul class="space-y-3 text-neutral-700 mb-6 flex-grow">
+                        <li class="flex items-start"><i class="fas fa-check text-emerald-600 mt-1 ml-2 flex-shrink-0"></i><span>دراسة جدوى السوق والتكاليف</span></li>
+                        <li class="flex items-start"><i class="fas fa-check text-emerald-600 mt-1 ml-2 flex-shrink-0"></i><span>دعم الموارد البشرية والتوظيف</span></li>
+                        <li class="flex items-start"><i class="fas fa-check text-emerald-600 mt-1 ml-2 flex-shrink-0"></i><span>معالجة ثلاث تأشيرات عمل</span></li>
+                        <li class="flex items-start"><i class="fas fa-check text-emerald-600 mt-1 ml-2 flex-shrink-0"></i><span>تطوير خطة العمل</span></li>
+                        <li class="flex items-start"><i class="fas fa-check text-emerald-600 mt-1 ml-2 flex-shrink-0"></i><span>6 أشهر من الدعم</span></li>
+                    </ul>
+                    <div class="mt-auto">
+                        <p class="text-neutral-800 font-semibold bg-emerald-50 p-3 rounded mb-4">لماذا تختارها: <span class="font-normal">مثالية للشركات الجاهزة للتوسع مع فريق صغير.</span></p>
+                        <a href="contact-ar.html" class="block w-full text-center bg-emerald-600 text-white py-2 rounded-md hover:bg-emerald-700 transition duration-300">ابدأ الآن</a>
+                    </div>
+                </div>
+
+                <div class="bg-white rounded-lg p-6 shadow-lg border-t-4 border-amber-500 flex flex-col service-card hover:scale-105 transition-transform duration-300">
+                    <h4 class="font-heading text-xl font-semibold mb-4 text-amber-600">الحل المتميز</h4>
+                    <div class="text-3xl font-bold text-neutral-800 mb-4">3,850 ريال<span class="text-lg font-normal text-neutral-600">/دفعة واحدة</span></div>
+                    <p class="text-neutral-600 mb-4 font-medium">حل متكامل لتأسيس الأعمال</p>
+                    <ul class="space-y-3 text-neutral-700 mb-6 flex-grow">
+                        <li class="flex items-start"><i class="fas fa-check text-amber-600 mt-1 ml-2 flex-shrink-0"></i><span>دراسة جدوى تفصيلية لمدة 3 سنوات</span></li>
+                        <li class="flex items-start"><i class="fas fa-check text-amber-600 mt-1 ml-2 flex-shrink-0"></i><span>دعم كامل للهيكلة الإسلامية</span></li>
+                        <li class="flex items-start"><i class="fas fa-check text-amber-600 mt-1 ml-2 flex-shrink-0"></i><span>إدارة قانونية وإدارية لمدة عام</span></li>
+                        <li class="flex items-start"><i class="fas fa-check text-amber-600 mt-1 ml-2 flex-shrink-0"></i><span>تأسيس أعمال كامل</span></li>
+                        <li class="flex items-start"><i class="fas fa-check text-amber-600 mt-1 ml-2 flex-shrink-0"></i><span>تأشيرات عمل غير محدودة</span></li>
+                    </ul>
+                    <div class="mt-auto">
+                        <p class="text-neutral-800 font-semibold bg-amber-50 p-3 rounded mb-4">لماذا تختارها: <span class="font-normal">حل "جاهز بالكامل" للمستثمرين الجادين.</span></p>
+                        <a href="contact-ar.html" class="block w-full text-center bg-amber-600 text-white py-2 rounded-md hover:bg-amber-700 transition duration-300">ابدأ الآن</a>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center mt-8 space-y-4">
+                <p class="text-neutral-600">جميع الباقات تشمل ضمان استرداد الأموال لمدة 30 يوماً واستشارة أولية مجانية.</p>
+                <p class="text-neutral-600">تحتاج إلى حل مخصص؟ <a href="contact-ar.html" class="text-primary hover:underline font-medium">اتصل بنا للحصول على باقة مخصصة</a>.</p>
+            </div>
+        </div>
+
+        <div id="individual-services" class="mt-16 pt-8 -mt-8">
+            <h3 class="font-heading font-semibold text-2xl md:text-3xl mb-8 text-center">خدمات الأعمال الفردية</h3>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <div class="bg-white rounded-lg overflow-hidden shadow-md transition-all hover:shadow-lg service-card">
+                <img src="https://images.unsplash.com/photo-1581092446327-9b52bd1570c2?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80" alt="التوظيف الهندسي" class="w-full h-48 object-cover">
+                <div class="p-6">
+                <h4 class="font-heading text-xl font-semibold mb-3 text-indigo-600">التوظيف الهندسي</h4>
+                <ul class="space-y-2 mb-4 text-sm text-neutral-600">
+                    <li class="flex items-start"><i class="fas fa-check text-indigo-600 mt-1 ml-2"></i><span>البحث عن المواهب التقنية</span></li>
+                    <li class="flex items-start"><i class="fas fa-check text-indigo-600 mt-1 ml-2"></i><span>حلول التوظيف الهندسي</span></li>
+                </ul>
+                <a href="contact-ar.html" class="inline-block font-medium text-indigo-600 hover:text-indigo-700 transition duration-300">استفسر الآن &larr;</a>
+                </div>
+            </div>
+            <div class="bg-white rounded-lg overflow-hidden shadow-md transition-all hover:shadow-lg service-card">
+                <img src="https://images.unsplash.com/photo-1594980596870-8aa52a78d8cd?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80" alt="خدمات التأشيرات" class="w-full h-48 object-cover">
+                <div class="p-6">
+                <h4 class="font-heading text-xl font-semibold mb-3 text-blue-600">خدمات التأشيرات</h4>
+                <ul class="space-y-2 mb-4 text-sm text-neutral-600">
+                    <li class="flex items-start"><i class="fas fa-check text-blue-600 mt-1 ml-2"></i><span>معالجة تأشيرات العمل والأعمال</span></li>
+                    <li class="flex items-start"><i class="fas fa-check text-blue-600 mt-1 ml-2"></i><span>تجديد وتمديد التأشيرات</span></li>
+                </ul>
+                <a href="oman-visa-services-ar.html" class="inline-block font-medium text-blue-600 hover:text-blue-700 transition duration-300">اعرف المزيد &larr;</a>
+                </div>
+            </div>
+            <div class="bg-white rounded-lg overflow-hidden shadow-md transition-all hover:shadow-lg service-card">
+                <img src="https://images.unsplash.com/photo-1560472355-536de3962603?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80" alt="التمويل الإسلامي" class="w-full h-48 object-cover">
+                <div class="p-6">
+                <h4 class="font-heading text-xl font-semibold mb-3 text-violet-600">التمويل الإسلامي</h4>
+                <ul class="space-y-2 mb-4 text-sm text-neutral-600">
+                    <li class="flex items-start"><i class="fas fa-check text-violet-600 mt-1 ml-2"></i><span>هيكلة متوافقة مع الشريعة</span></li>
+                    <li class="flex items-start"><i class="fas fa-check text-violet-600 mt-1 ml-2"></i><span>تخطيط الاستثمار الحلال</span></li>
+                </ul>
+                <a href="contact-ar.html" class="inline-block font-medium text-violet-600 hover:text-violet-700 transition duration-300">استفسر الآن &larr;</a>
+                </div>
+            </div>
+            <div class="bg-white rounded-lg overflow-hidden shadow-md transition-all hover:shadow-lg service-card">
+                <img src="https://images.unsplash.com/photo-1589829545856-d10d557cf95f?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80" alt="الخدمات القانونية" class="w-full h-48 object-cover">
+                <div class="p-6">
+                <h4 class="font-heading text-xl font-semibold mb-3 text-amber-600">الخدمات القانونية</h4>
+                <ul class="space-y-2 mb-4 text-sm text-neutral-600">
+                    <li class="flex items-start"><i class="fas fa-check text-amber-600 mt-1 ml-2"></i><span>مراجعة العقود التجارية</span></li>
+                    <li class="flex items-start"><i class="fas fa-check text-amber-600 mt-1 ml-2"></i><span>الامتثال التنظيمي</span></li>
+                </ul>
+                <a href="contact-ar.html" class="inline-block font-medium text-amber-600 hover:text-amber-700 transition duration-300">استفسر الآن &larr;</a>
+                </div>
+            </div>
+            <div class="bg-white rounded-lg overflow-hidden shadow-md transition-all hover:shadow-lg service-card">
+                <img src="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80" alt="البحث التسويقي" class="w-full h-48 object-cover">
+                <div class="p-6">
+                <h4 class="font-heading text-xl font-semibold mb-3 text-rose-600">البحث التسويقي</h4>
+                <ul class="space-y-2 mb-4 text-sm text-neutral-600">
+                    <li class="flex items-start"><i class="fas fa-check text-rose-600 mt-1 ml-2"></i><span>تقييم جدوى السوق</span></li>
+                    <li class="flex items-start"><i class="fas fa-check text-rose-600 mt-1 ml-2"></i><span>التوقعات المالية وتحليل المخاطر</span></li>
+                </ul>
+                <a href="contact-ar.html" class="inline-block font-medium text-rose-600 hover:text-rose-700 transition duration-300">استفسر الآن &larr;</a>
+                </div>
+            </div>
+            <div class="bg-white rounded-lg overflow-hidden shadow-md transition-all hover:shadow-lg service-card">
+                <img src="https://images.unsplash.com/photo-1501504905252-473c47e087f8?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80" alt="دعم الكتابة الأكاديمية" class="w-full h-48 object-cover">
+                <div class="p-6">
+                <h4 class="font-heading text-xl font-semibold mb-3 text-teal-600">دعم الكتابة الأكاديمية</h4>
+                <ul class="space-y-2 mb-4 text-sm text-neutral-600">
+                    <li class="flex items-start"><i class="fas fa-check text-teal-600 mt-1 ml-2"></i><span>كتابة مقالات ودراسات حالة الماجستير</span></li>
+                    <li class="flex items-start"><i class="fas fa-check text-teal-600 mt-1 ml-2"></i><span>الاقتراحات البحثية ومراجعات الأدبيات</span></li>
+                </ul>
+                <a href="academic-writing-ar.html" class="inline-block font-medium text-teal-600 hover:text-teal-700 transition duration-300">اعرف المزيد &larr;</a>
+                </div>
+            </div>
+            </div>
+        </div>
+        </div>
+    </section>
+  </main>
+
+  <footer class="bg-neutral-800 text-neutral-300 py-12">
+    <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+        <div class="col-span-1 md:col-span-2">
+          <a href="index-ar.html" class="font-bold text-2xl text-white mb-4 inline-block">
+            <img src="favicon.png" alt="شعار قمة" class="h-8 w-8 inline-block ml-2">
+            <span class="text-neutral-300">قمة</span> 
+          </a>
+          <p class="mb-4">
+            شريككم الموثوق في مجال الطاقة والأعمال في عمان، نقدم استشارات متخصصة وخدمات وساطة.
+          </p>
+          <div class="flex items-center">
+            <a href="https://www.linkedin.com/company/qima-co" target="_blank" rel="noopener noreferrer" class="text-neutral-300 hover:text-white transition duration-300 px-4">
+              <i class="fab fa-linkedin-in text-xl"></i>
+            </a>
+            <a href="#" class="text-neutral-300 hover:text-white transition duration-300 px-4">
+              <i class="fab fa-twitter text-xl"></i>
+            </a>
+            <a href="#" class="text-neutral-300 hover:text-white transition duration-300 px-4">
+              <i class="fab fa-instagram text-xl"></i>
+            </a>
+          </div>
+        </div>
+        <div>
+          <h4 class="font-heading font-semibold text-white text-lg mb-4">خدماتنا</h4>
+          <ul class="space-y-2">
+            <li><a href="services-ar.html#oil-Consulting" class="hover:text-white transition duration-300">استشارات النفط</a></li>
+            <li><a href="services-ar.html#geological-services" class="hover:text-white transition duration-300">الخدمات الجيولوجية</a></li>
+            <li><a href="services-ar.html#renewable-energy" class="hover:text-white transition duration-300">الطاقة المتجددة</a></li>
+            <li><a href="services-ar.html#business-setup" class="hover:text-white transition duration-300">تأسيس الأعمال</a></li>
+            <li><a href="academic-writing-ar.html" class="hover:text-white transition duration-300">دعم الكتابة الأكاديمية</a></li>
+            <li><a href="services-ar.html#individual-services" class="hover:text-white transition duration-300">المزيد من الخدمات</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="font-heading font-semibold text-white text-lg mb-4">روابط سريعة</h4>
+          <ul class="space-y-2">
+            <li><a href="index-ar.html" class="hover:text-white transition duration-300">الرئيسية</a></li>
+            <li><a href="services-ar.html" class="hover:text-white transition duration-300">الخدمات</a></li>
+            <li><a href="about-ar.html" class="hover:text-white transition duration-300">من نحن</a></li>
+            <li><a href="projects-ar.html" class="hover:text-white transition duration-300">المشاريع</a></li>
+            <li><a href="testimonials-ar.html" class="hover:text-white transition duration-300">الشهادات</a></li>
+            <li><a href="contact-ar.html" class="hover:text-white transition duration-300">اتصل بنا</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="border-t border-neutral-700 mt-10 pt-6 flex flex-col md:flex-row justify-between items-center">
+        <p>&copy; 2025 قمة للاستشارات. جميع الحقوق محفوظة.</p>
+        <div class="flex space-x-6 mt-4 md:mt-0">
+          <a href="privacy-policy.html" class="hover:text-white transition duration-300">سياسة الخصوصية</a>
+          <a href="#" class="hover:text-white transition duration-300">شروط الخدمة</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html> 
